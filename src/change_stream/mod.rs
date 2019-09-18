@@ -429,7 +429,7 @@ pub struct ChangeStreamOptions {
 
     /// The maximum amount of time for the server to wait on new documents to satisfy
     /// a change stream query.
-    #[serde(rename="maxAwaitTimeMS")]
+    #[serde(rename="maxTimeMS")]
     #[default]
     pub max_await: Option<i64>,
 
